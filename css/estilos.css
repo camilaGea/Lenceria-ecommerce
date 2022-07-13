@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main {
+    min-height: 500px;
+}
+
+/* HEADER */
+
+.carrito a{
+    text-decoration: none;
+    color: black;
+    background-color: #fbcdb0;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#boton-carrito {
+    padding: 7px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fbcdb0;
+    border: none;
+    border-radius: 30px ;
+}
+
+#boton-carrito:hover {
+    background-color: #fcdac4;
+}
+/* FIN HEADER */
+
+/* MAIN */
+
+
+.filtros {
+    margin: 10px;
+}
+
+.filtros p {
+    font-size: 20px;
+}
+
+.filtros select {
+    border-radius: 15px;
+    border: 2px #fbcdb0 solid;
+}
+.btn-buscador{
+    border: 2px #fbcdb0 solid;
+}
+
+.btn-buscador:hover{
+    color: #fbcdb0 ;
+    border-color: #fbcdb0;
+}
+
+.btn-buscador i {
+    color: #fbcdb0;
+}
+
+
+
+#contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+    grid-gap: 10px;
+    
+}
+
+.productos {
+    padding: 20px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+.img_producto {
+    width: 100%;
+    object-fit: cover;
+}
+
+.descrip_producto {
+    text-align: center;
+}
+
+.btn-color{
+    color: black;
+    background-color: #fbcdb0;
+}
+
+@media screen and (min-width: 600px) {
+    #contenedor-productos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #contenedor-productos {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+/* FIN MAIN */
+
+
+/* FOOTER */
+footer {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    min-height: 100px;
+    padding: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.redes ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes ul li {
+    list-style: none;
+    font-size: 30px;
+    background-color: #fbcdb0;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+.redes ul li:hover{
+    background-color: black;
+}
+
+.redes ul li a i {
+    color: black;
+    margin: 10px ;
+}
+
+.redes ul li a i:hover{
+    color: #fbcdb0;
+}
+
+
+/* FIN FOOTER */
+
+
+/* MODAL */
+
+
+.modal-contenedor {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+  
+.modal-active {
+    opacity: 1;
+    visibility: visible;
+    z-index: 5;
+}
+  
+.modal-carrito {
+    position: relative;
+    background-color: white;
+    border: 1px solid #fbcdb0;
+    min-width: 500px;
+    padding: 20px;
+    margin-top: -100%;
+    transition: all 0.5s;
+}
+  
+
+.modal-active .modal-carrito {
+    margin-top: 0;
+}
+  
+.modal-carrito h3 {
+    color: #fbcdb0;
+    padding-bottom: 5px;
+}
+.modal-carrito #carritoCerrar {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 20px;
+    color: #fcdac4;
+    border: none;
+    background-color: white;
+}
+.modal-carrito #carritoCerrar:hover {
+    cursor: pointer;
+}
+.modal-carrito #carritoCerrar:focus {
+    outline: none;
+}
+.modal-carrito .precioProducto {
+    padding-top: 10px;
+}
+
+
+.productoEnCarrito {
+    border-left: 5px solid #fbcdb0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.productoEnCarrito:hover {
+    border-left: 5px solid #fbcdb0;
+}
+  
+.boton-eliminar {
+    background-color: white;
+    color: #fbcdb0;
+    border: none;
+    font-size: 20px;
+}
+  
+.boton-eliminar:hover {
+    cursor: pointer;
+}
+.boton-eliminar:focus {
+    outline: none;
+}
+
+.finalizar-compra {
+    margin-top: 10px;
+}
+
+.finalizar-compra .btn-comprar {
+    margin: 20px;
+} 
+
+
+/* FIN MODAL */
+
+/* CARRITO COMPRA */
+
+.contenedor-titulo a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor-titulo a:hover{
+    color: #fbcdb0;
+}
+
+/* FORMULARIO INICIO */
+
+.volver {
+    margin-left: 20px;
+    font-size: 120%;
+}
+
+.volver a i {
+    color: black;
+}
+
+#formu-envio {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../img/fond1.png');
+    margin-top: 10px;
+    align-items: center;
+    padding: 5vh;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+}
+
+#formu-envio p {
+    margin-left: 5px;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    color: white;
+}
+
+
+#formu-envio input {
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border-color: #fbcdb0 ;
+    background-color: #fbcdb0;
+}
+
+#formu-envio .btn-enviar {
+    margin: auto ;
+    background-color: black;
+    color: #fbcdb0;
+    border: 2px #fbcdb0 solid;
+    border-radius: 5px;
+}
+
+#formu-envio .btn-enviar:hover {
+    color: black;
+    background-color: #fbcdb0;
+}

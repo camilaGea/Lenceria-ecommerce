@@ -1,0 +1,309 @@
+[
+    {
+        "id": 101,
+        "nombre":"CONJUNTO ROMA",
+        "precio": 2534,
+        "talle": "90",
+        "color": "Negro",
+        "imagen": "img/conj1.jpeg"
+    },
+    {
+        "id": 102,
+        "nombre":"CONJUNTO BIANCA",
+        "precio": 1478,
+        "talle": "80",
+        "color": "Rojo",
+        "imagen": "img/conj2.jpeg"
+    },
+    {
+        "id": 103,
+        "nombre":"CONJUNTO AIDA",
+        "precio":2897,
+        "talle": "100",
+        "color": "Blanco",
+        "imagen": "img/conj3.jpeg"
+    },
+    {
+        "id": 104,
+        "nombre":"CONJUNTO BIANCA",
+        "precio": 2159,
+        "talle": "80",
+        "color": "Nude",
+        "imagen": "img/conj4.jpeg"
+    },
+    {
+        "id": 105,
+        "nombre":"CONJUNTO ROMA",
+        "precio": 2003,
+        "talle": "90",
+        "color": "Negro",
+        "imagen":"img/conj5.jpeg"
+    },
+    {
+        "id": 106,
+        "nombre":"CONJUNTO AIDA",
+        "precio":1844,
+        "talle": "100",
+        "color": "Blanco",
+        "imagen": "img/conj6.jpeg"
+    },
+    {
+        "id": 107,
+        "nombre":"CONJUNTO BIANCA",
+        "precio": 1450,
+        "talle": "80",
+        "color": "Rojo",
+        "imagen": "img/conj7.jpeg"
+    },
+    {
+        "id": 108,
+        "nombre":"CONJUNTO ROMA",
+        "precio": 2104,
+        "talle": "90",
+        "color": "Rojo",
+        "imagen": "img/conj8.jpeg"
+    },
+    {
+        "id": 109,
+        "nombre":"CONJUNTO AIDA",
+        "precio": 1598,
+        "talle": "100",
+        "color": "Blanco",
+        "imagen": "img/conj9.jpeg"
+    },
+    {
+        "id": 110,
+        "nombre":"CONJUNTO BIANCA",
+        "precio": 1477,
+        "talle": "80",
+        "color": "Rojo",
+        "imagen": "img/conj10.jpeg"
+    },
+    {
+        "id": 111,
+        "nombre":"CONJUNTO ROMA",
+        "precio": 2100,
+        "talle": "90",
+        "color": "Rosa",
+        "imagen": "img/conj11.jpeg"
+    },
+    {
+        "id": 112,
+        "nombre":"CONJUNTO AIDA",
+        "precio": 2360,
+        "talle": "100",
+        "color": "Celeste",
+        "imagen": "img/conj12.jpeg"
+    },
+    {
+        "id": 113,
+        "nombre":"CONJUNTO BIANCA",
+        "precio": 1248,
+        "talle": "80",
+        "color": "Combinado",
+        "imagen": "img/conj13.jpeg"
+    },
+    {
+        "id": 114,
+        "nombre":"CONJUNTO ROMA",
+        "precio": 1258,
+        "talle":"90",
+        "color": "Combinado",
+        "imagen": "img/conj15.jpeg"
+    },
+    {
+        "id": 115,
+        "nombre":"CONJUNTO AIDA",
+        "precio": 2507,
+        "talle":"100",
+        "color": "Gris",
+        "imagen": "img/conj16.jpeg"
+    },
+    {
+        "id": 116,
+        "nombre":"CONJUNTO BIANCA",
+        "precio": 6798,
+        "talle":"100",
+        "color":"Nude",
+        "imagen": "img/conju.jpeg"
+    },
+
+    {
+        "id": 117,
+        "nombre":"BOMBACHA COLALESS",
+        "precio": 1000,
+        "talle":"unico",
+        "color":"Negro",
+        "imagen": "img/bombis.jpeg"
+    },
+    {
+        "id": 118,
+        "nombre":"BOMBACHA COLALESS",
+        "precio": 1470,
+        "talle":"unico",
+        "color":"Negro",
+        "imagen": "img/bombis1.jpeg"
+    },
+    {
+        "id": 119,
+        "nombre":"BOMBACHA COLALESS",
+        "precio": 798,
+        "talle":"unico",
+        "color":"Negro",
+        "imagen": "img/bombis2.jpeg"
+    },
+    {
+        "id": 120,
+        "nombre":"BOMBACHA COLALESS",
+        "precio": 874,
+        "talle":"unico",
+        "color":"Negro",
+        "imagen": "img/bombis3.jpeg"
+    },
+    {
+        "id": 121,
+        "nombre":"BOMBACHA COLALESS",
+        "precio": 1098,
+        "talle":"unico",
+        "color":"Negro",
+        "imagen": "img/bombis4.jpeg"
+    },
+    {
+        "id": 122,
+        "nombre":"BOMBACHA COLALESS",
+        "precio": 1108,
+        "talle":"unico",
+        "color":"Negro",
+        "imagen": "img/bombis5.jpeg"
+    },
+    {
+        "id": 123,
+        "nombre":"BOMBACHA COLALESS",
+        "precio": 1008,
+        "talle":"unico",
+        "color":"Combinados",
+        "imagen": "img/bombis7.jpeg"
+    },
+    {
+        "id": 124,
+        "nombre":"BOMBACHA COLALESS",
+        "precio": 1098,
+        "talle":"unico",
+        "color":"Combinados",
+        "imagen": "img/bomb.jpeg"
+    },
+    {
+        "id": 125,
+        "nombre":"BOMBACHA VEDETINAS",
+        "precio": 895,
+        "talle":"unico",
+        "color":"Combinados",
+        "imagen": "img/bombis6.jpeg"
+    },
+    {
+        "id": 126,
+        "nombre":"BOMBACHA VEDETINAS",
+        "precio": 998,
+        "talle":"unico",
+        "color":"Combinados",
+        "imagen": "img/bombis8.jpeg"
+    },
+
+    {
+        "id": 127,
+        "nombre":"BODY JOSEFINA",
+        "precio": 1580,
+        "talle":"80",
+        "color":"Blanco",
+        "imagen": "img/body.jpeg"
+    },
+    {
+        "id": 128,
+        "nombre":"BODY JOSEFINA",
+        "precio": 1899,
+        "talle":"90",
+        "color":"Blanco",
+        "imagen": "img/body1.jpeg"
+    },
+    {
+        "id": 129,
+        "nombre":"BODY JOSEFINA",
+        "precio": 1010,
+        "talle":"100",
+        "color":"Rosa",
+        "imagen": "img/body2.jpeg"
+    },
+    {
+        "id": 130,
+        "nombre":"BODY JOSEFINA",
+        "precio": 2200,
+        "talle":"80",
+        "color":"Celeste",
+        "imagen": "img/body3.jpeg"
+    },
+    {
+        "id": 131,
+        "nombre":"BODY JOSEFINA",
+        "precio": 1225,
+        "talle":"90",
+        "color":"Rosa",
+        "imagen": "img/body4.jpeg"
+    },
+    {
+        "id": 132,
+        "nombre":"BODY JOSEFINA",
+        "precio": 1459,
+        "talle":"100",
+        "color":"Verde",
+        "imagen": "img/body5.jpeg"
+    },
+    {
+        "id": 133,
+        "nombre":"BODY MILI",
+        "precio": 1589,
+        "talle":"90",
+        "color":"Combinados",
+        "imagen": "img/body6.jpeg"
+    },
+    {
+        "id": 134,
+        "nombre":"BODY MILI",
+        "precio": 1680,
+        "talle":"80",
+        "color":"Combinados",
+        "imagen": "img/body7.jpeg"
+    },
+    {
+        "id": 135,
+        "nombre":"BODY MILI",
+        "precio": 1368,
+        "talle":"100",
+        "color":"Combinados",
+        "imagen": "img/body8.jpeg"
+    },
+    {
+        "id": 136,
+        "nombre":"BODY MILI",
+        "precio": 998,
+        "talle":"90",
+        "color":"Combinados",
+        "imagen": "img/body9.jpeg"
+    },
+    {
+        "id": 137,
+        "nombre":"BODY MILI",
+        "precio": 1088,
+        "talle":"80",
+        "color":"Combinados",
+        "imagen": "img/body10.jpeg"
+    },
+    {
+        "id": 138,
+        "nombre":"BODY MILI",
+        "precio": 1087,
+        "talle":"100",
+        "color":"Combinados",
+        "imagen": "img/body11.jpeg"
+    }
+    
+]
